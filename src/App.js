@@ -3,8 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-     <h1>Cartoon face</h1>
+    <div id="cartoon">
+      <div className="face">
+        <div className="month"></div>
+      </div>   
     </div>
   );
 }
